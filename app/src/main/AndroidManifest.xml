@@ -16,6 +16,48 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.ProfileArtistActivity"
+            android:label="@string/title_activity_profile_artist"
+            android:parentActivityName=".activity.ArtistActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xie.araca.logopeia.activity.ArtistActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ProfileEventActivity"
+            android:label="@string/title_activity_profile_event"
+            android:parentActivityName=".activity.EventActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="xie.araca.logopeia.activity.EventActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ArtistActivity"
+            android:label="@string/title_activity_artist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.EventActivity"
+            android:label="@string/title_activity_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ExploreActivity"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.FavoriteActivity"
+            android:label="@string/title_activity_favorite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

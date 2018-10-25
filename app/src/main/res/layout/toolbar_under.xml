@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/bt_home"
+    android:text="Home"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="465dp"
+    android:layout_width="75sp"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/bt_explore"
+    android:text="Explore"
+    android:layout_marginTop="465dp"
+    android:layout_toRightOf="@+id/bt_home"
+    android:layout_width="75sp"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/bt_favorite"
+    android:text="Favorite"
+    android:layout_marginTop="465dp"
+    android:layout_toRightOf="@+id/bt_explore"
+    android:layout_width="75sp"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/bt_artists"
+    android:text="Artists"
+    android:layout_marginTop="465dp"
+    android:layout_toRightOf="@+id/bt_favorite"
+    android:layout_width="75sp"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/bt_events"
+    android:text="Events"
+    android:layout_marginTop="465dp"
+    android:layout_toRightOf="@+id/bt_artists"
+    android:layout_width="75sp"
+    android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
