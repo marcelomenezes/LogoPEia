@@ -1,44 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
+    <data>
 
-<Button
-    android:id="@+id/bt_home"
-    android:text="Home"
-    android:layout_marginLeft="5dp"
-    android:layout_marginTop="465dp"
-    android:layout_width="75sp"
-    android:layout_height="wrap_content" />
-<Button
-    android:id="@+id/bt_explore"
-    android:text="Explore"
-    android:layout_marginTop="465dp"
-    android:layout_toRightOf="@+id/bt_home"
-    android:layout_width="75sp"
-    android:layout_height="wrap_content" />
-<Button
-    android:id="@+id/bt_favorite"
-    android:text="Favorite"
-    android:layout_marginTop="465dp"
-    android:layout_toRightOf="@+id/bt_explore"
-    android:layout_width="75sp"
-    android:layout_height="wrap_content" />
-<Button
-    android:id="@+id/bt_artists"
-    android:text="Artists"
-    android:layout_marginTop="465dp"
-    android:layout_toRightOf="@+id/bt_favorite"
-    android:layout_width="75sp"
-    android:layout_height="wrap_content" />
-<Button
-    android:id="@+id/bt_events"
-    android:text="Events"
-    android:layout_marginTop="465dp"
-    android:layout_toRightOf="@+id/bt_artists"
-    android:layout_width="75sp"
-    android:layout_height="wrap_content" />
+        <variable
+            name="listener"
+            type="android.view.View.OnClickListener" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btHome"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="465dp"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btExplore"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="465dp"
+            android:layout_toRightOf="@+id/btHome"
+            android:text="Explore" />
+
+        <Button
+            android:id="@+id/btFavorite"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="465dp"
+            android:layout_toRightOf="@+id/btExplore"
+            android:text="Favorite" />
+
+        <Button
+            android:id="@+id/btArtists"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="465dp"
+            android:layout_toRightOf="@+id/btFavorite"
+            android:text="Artists" />
+
+        <Button
+            android:id="@+id/btEvents"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="465dp"
+            android:layout_toRightOf="@+id/btArtists"
+
+            android:text="Events" />
 
 
-</RelativeLayout>
+    </RelativeLayout>
+</layout>
