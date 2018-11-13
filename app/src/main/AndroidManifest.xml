@@ -39,25 +39,9 @@
             android:label="@string/title_activity_sign_up"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.ArtistActivity"
-            android:label="@string/title_activity_artist"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.EventActivity"
-            android:label="@string/title_activity_event"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.ExploreActivity"
-            android:label="@string/title_activity_explore"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.FavoriteActivity"
-            android:label="@string/title_activity_favorite"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".activity.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

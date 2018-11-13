@@ -20,5 +20,11 @@
             android:id="@+id/toolbar_main"
             layout="@layout/toolbar_under"/>
 
+        <TextView
+            android:layout_margin="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="olaaaaa main"/>
+
     </RelativeLayout>
 </layout>
